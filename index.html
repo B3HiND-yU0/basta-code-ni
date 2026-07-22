@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIGNAL — Electronics, tuned right.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <span class="logo-mark">
+      <svg viewBox="0 0 26 26" fill="none">
+        <circle cx="13" cy="13" r="12" stroke="#12211B" stroke-width="1.4"/>
+        <path d="M4 13H9L11 8L15 18L17 13H22" stroke="#34E0A1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </span>
+    Hacking tools shop
+  </div>
+  <div class="nav-right">
+    <nav class="nav-links">
+      <a href="#">Shop </a>
+      <a href="#">Deals </a>
+      <a href="#">Support</a>
+    </nav>
+    <button class="btn-ghost">Log in</button>
+    <button class="btn-cart">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h7.2a2 2 0 0 0 2-1.6L21 7H6"/><circle cx="9" cy="21" r="1"/><circle cx="18" cy="21" r="1"/></svg>
+      Cart
+      <span class="cart-count">1</span>
+    </button>
+  </div>
+</header>
+
+<section class="hero-wrap">
+  <div class="hero">
+    <span class="eyebrow"><span class="dot"></span>Live now · weekend window</span>
+    <h1>The Weekend Drop<br>is <span class="accent">reading hot.</span></h1>
+    <p class="sub">Forty percent off laptops, headphones, and everyday carry — while the signal holds. Stock is capped, not a marketing line.</p>
+    <div class="hero-ctas">
+      <button class="btn-primary">Browse the drop</button>
+      <a href="#" class="btn-text">See what's ending first →</a>
+    </div>
+
+    <div class="pulse-wrap" aria-hidden="true">
+      <svg viewBox="0 0 900 90" preserveAspectRatio="none">
+        <path class="pulse-path" d="M0,50 L120,50 L145,20 L165,80 L185,50 L320,50 L345,35 L365,65 L385,50 L520,50 L545,10 L570,90 L595,50 L720,50 L745,30 L765,70 L785,50 L900,50"/>
+        <path class="pulse-path copper" d="M0,60 L200,60 L225,42 L250,60 L460,60 L485,25 L510,60 L700,60 L725,45 L750,60 L900,60"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="filter-section">
+  <div class="filter-label">Browse by category</div>
+  <div class="filter-row">
+    <button class="chip active">All</button>
+    <button class="chip">Laptops</button>
+    <button class="chip">Audio</button>
+    <button class="chip">Accessories</button>
+  </div>
+</section>
+
+<section class="products-section">
+  <div class="products-head">
+    <h2>This week's picks</h2>
+    <span class="count">04 items · updated today</span>
+  </div>
+
+  <div class="grid">
+
+    <!-- Laptop -->
+    <div class="card">
+      <div class="card-media">
+        <span class="tag sale">Sale</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M2 19h20"/></svg>
+      </div>
+      <div class="card-body">
+        <span class="cat-label mono">Laptop</span>
+        <h3>Ridgeline 14 Ultrabook</h3>
+        <div class="spec mono">i7 · 16GB RAM · 512GB SSD</div>
+        <div class="stars">★★★★☆ <span class="count-txt">4.5 (212)</span></div>
+        <div class="price-row">
+          <span class="price">₱54,990</span>
+          <span class="price-old">₱64,990</span>
+        </div>
+        <button class="add-btn">Add to cart</button>
+      </div>
+    </div>
+
+    <!-- Headphones -->
+    <div class="card">
+      <div class="card-media">
+        <span class="cat-label mono">Headset</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 13a9 9 0 0 1 18 0"/><rect x="2" y="13" width="5" height="7" rx="1.5"/><rect x="17" y="13" width="5" height="7" rx="1.5"/></svg>
+      </div>
+      <div class="card-body">
+        <span class="cat-label mono">Audio</span>
+        <h3>Aether ANC Headphones</h3>
+        <div class="spec mono">Wireless · 30h battery · fast charge</div>
+        <div class="stars">★★★★★ <span class="count-txt">4.8 (486)</span></div>
+        <div class="price-row">
+          <span class="price">₱3,499</span>
+        </div>
+        <button class="add-btn added">✓ Added</button>
+      </div>
+    </div>
+
+    <!-- Mouse -->
+    <div class="card">
+      <div class="card-media">
+        <span class="cat-label mono">Mouse</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="7" y="3" width="10" height="18" rx="5"/><path d="M12 3v6"/></svg>
+      </div>
+      <div class="card-body">
+        <span class="cat-label mono">Accessories</span>
+        <h3>Glide Wireless Mouse</h3>
+        <div class="spec mono">Silent click · 2.4GHz + USB-C</div>
+        <div class="stars">★★★★☆ <span class="count-txt">4.2 (98)</span></div>
+        <div class="price-row">
+          <span class="price">₱799</span>
+        </div>
+        <button class="add-btn">Add to cart</button>
+      </div>
+    </div>
+
+    <!-- Keyboard -->
+    <div class="card">
+      <div class="card-media">
+        <span class="tag low">Low stock</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M8 14h8"/></svg>
+      </div>
+      <div class="card-body">
+        <span class="cat-label mono">Accessories</span>
+        <h3>Cascade Mechanical Keyboard</h3>
+        <div class="spec mono">Blue switches · per-key RGB</div>
+        <div class="stars">★★★★★ <span class="count-txt">4.9 (167)</span></div>
+        <div class="price-row">
+          <span class="price">₱2,199</span>
+        </div>
+        <button class="add-btn">Add to cart</button>
+        <div class="low-stock-note">6 left — restock unconfirmed</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 SIGNAL — Electronics, tuned right.
+</footer>
+
+<script>
+  document.querySelectorAll('.chip').forEach(chip=>{
+    chip.addEventListener('click', ()=>{
+      document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
+      chip.classList.add('active');
+    });
+  });
+
+  document.querySelectorAll('.add-btn').forEach(btn=>{
+    if(btn.classList.contains('added')) return;
+    btn.addEventListener('click', ()=>{
+      btn.textContent = '✓ Added';
+      btn.classList.add('added');
+    });
+  });
+</script>
+
+</body>
+</html>
